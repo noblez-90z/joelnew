@@ -1,0 +1,65 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgba(97, 21, 219, 0.897);
+    background-image: url(./images/bg-desktop.svg);
+}
+header{
+    margin: 50px;
+}
+h1{
+    padding: 10px;
+    margin-left: 120px;
+}
+.fa-regular{
+    padding: 5px;
+}
+main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.middle{
+    border: none;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    margin-top: 30px;
+}
+h2{
+    padding: 10px;
+    line-height: 2; 
+    color: whitesmoke;
+}
+p{
+    padding: 5px;
+    color: whitesmoke;
+}
+button{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    color: purple;
+    border: none;
+    margin: 10px;
+}
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+
+}
+.fa-brands{
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+}
