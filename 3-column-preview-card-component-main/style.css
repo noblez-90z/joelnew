@@ -18,4 +18,42 @@ main{
     width: 300px;
     max-width: 500px;
     height: 400px;
+    margin-top: 50px;
+}
+.box svg{
+    margin: 20px;
+}
+.box h2{
+    margin: 20px;
+}
+.box p{
+    margin: 20px;
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 50%;
+    border: none;
+    cursor: pointer;   
+}
+#Sedans{
+    background-color: rgb(177, 122, 20);
+    color: whitesmoke;
+
+}
+#Sedans button{
+       color: rgb(184, 129, 26);
+}
+#SUV{
+    background-color: rgb(18, 117, 117);
+    color: whitesmoke;
+}
+#SUV button{
+    color: rgb(18, 117, 117);
+} 
+#luxury{
+    background-color: rgb(18, 71, 71);
+    color: whitesmoke;
 }
